@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>SIA Rotaļu kaste</title>
+		<link rel="stylesheet" href="style.css" />
+		<script src="script.js"></script>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap"
+			rel="stylesheet"
+		/>
+	</head>
+	<body>
+		<!-- nav -->
+		<header>
+			<a href="index.html">
+				<img
+					src="images/logo-hor.jpeg"
+					alt="SIA Rotaļu kaste logo"
+					class="logo"
+				/>
+			</a>
+			<nav>
+				<ul>
+					<li><a href="index.html">Sākums</a></li>
+					<li><a href="about.html">Par mums</a></li>
+					<li><a href="aptauja.html">Aptaujas rezultāti</a></li>
+					<li><a href="dati.html">Dati</a></li>
+				</ul>
+			</nav>
+		</header>
+		<!-- content -->
+		<div class="main">
+			<h1>SIA “Rotaļu kaste”</h1>
+			<div>
+				<p>
+					“Rotaļu kaste” ir Latvijā pirmā abonementa tipa rotaļlietu
+					nomas un apmaiņas platforma, kas veicina ilgtspējīgu
+					patēriņu, bērnu attīstību un vecāku ērtības. Platforma
+					darbojas ar žetonu sistēmu, ļaujot vecākiem izvēlēties un ik
+					mēnesi mainīt kvalitatīvas rotaļlietas. Tās tiek piegādātas
+					ar pakomātu starpniecību, pēc katras lietošanas profesionāli
+					tīrītas un dezinficētas. Uzņēmuma sauklis ir
+					<em>“Katra kaste – jauns piedzīvojums!”</em>
+				</p>
+			</div>
+			<h2>Dibinātājas</h2>
+			<div class="team">
+				<div class="member">
+					<img
+						src="images/arta.jpeg"
+						alt="Arta More"
+						class="about-photo"
+					/>
+					<h3>Arta More</h3>
+					<p>
+						Uzņēmuma līdzīpašniece un idejas autore. Trīs bērnu
+						mamma, kas apvieno praktisku skatījumu ar ilgtspējīgas
+						uzņēmējdarbības zināšanām. Studē Biznesa procesu vadību
+						un fokusējas uz attīstību.
+					</p>
+					<div id="arta">
+						<button class="btn" onclick="showInfo(0, 'arta')">
+							Parādīt datus
+						</button>
+					</div>
+				</div>
+				<div class="member sintija">
+					<img
+						src="images/sintija.jpeg"
+						alt="Sintija Paulus"
+						class="about-photo"
+					/>
+					<h3>Sintija Paulus</h3>
+					<p>
+						Uzņēmuma līdzīpašniece un idejas līdzautore. Jaunā
+						māmiņa, mājaslapu izstrādātāja un digitālā mārketinga
+						speciāliste, kas nodrošina tehnisko atbalstu un vizuālo
+						identitāti. Studē Biznesa procesu vadību.
+					</p>
+					<div id="sintija">
+						<button class="btn" onclick="showInfo(1, 'sintija')">
+							Parādīt datus
+						</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- footer -->
+		<footer>
+			<p>2025 SIA Rotaļu kaste. Visas tiesības aizsargātas.</p>
+		</footer>
+	</body>
+</html>
