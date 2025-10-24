@@ -1,14 +1,5 @@
 /* Main */
-html,
 body {
-	height: 100%;
-	margin: 0;
-	padding: 0;
-}
-body {
-	min-height: 100vh;
-	display: flex;
-	flex-direction: column;
 	font-family: "Quicksand", sans-serif;
 	margin: 0;
 	padding: 0;
@@ -17,12 +8,11 @@ body {
 	font-size: 16px;
 }
 .main {
-	flex-grow: 1;
 	padding: 30px;
 	max-width: 900px;
 	margin: 0 auto;
 	text-align: center;
-	min-height: 75vh;
+	min-height: 90vh;
 }
 h1 {
 	font-size: 28px;
