@@ -1,7 +1,7 @@
 // tean
 const teamMember = [
 	{
-		age: 30,
+		age: 35,
 		city: "Liepāja",
 		gender: "Sieviete",
 		nationality: "Latviete",
@@ -60,7 +60,7 @@ async function getDatiAptauja() {
 		let values = Object.values(counts);
 
 		// chart
-		drawChart(labels, values, "intereseChart", "Atbilžu skaits", "bar");
+		drawChart(labels, values, "aptaujaChart", "Atbilžu skaits", "bar");
 	} catch (error) {
 		console.error("Kļūda", error);
 	}
@@ -118,7 +118,7 @@ async function getDati() {
 		drawChart(
 			labels,
 			values,
-			"datiVizualizacija",
+			"datiChart",
 			"Ģimenes valsts pabalsta saņēmēji",
 			"doughnut"
 		);
