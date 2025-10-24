@@ -7,6 +7,14 @@ body {
 	color: #333333;
 	font-size: 16px;
 }
+.home {
+	background-image: url("images/bg.jpg");
+	background-size: cover;
+	background-position: top;
+	background-repeat: no-repeat;
+	background-color: rgba(255, 255, 255, 0.8);
+	background-blend-mode: overlay;
+}
 .main {
 	padding: 30px;
 	max-width: 900px;
@@ -46,10 +54,10 @@ p {
 	margin-top: 10px;
 	font-size: 14px;
 }
-
 .btn:hover {
 	background-color: #ee2b4d;
 }
+
 /* nav */
 header {
 	background-color: #ffffff;
@@ -59,12 +67,10 @@ header {
 	align-items: center;
 	padding: 15px 30px;
 }
-
 .logo {
 	width: 150px;
 	height: auto;
 }
-
 nav ul {
 	list-style: none;
 	margin: 0;
@@ -86,7 +92,6 @@ nav a:hover {
 	gap: 30px;
 	justify-content: center;
 }
-
 .member {
 	background-color: #ffffff;
 	border: 1px solid #ddd;
@@ -96,18 +101,24 @@ nav a:hover {
 	text-align: center;
 	box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
 }
-
 .about-photo {
-	width: 200px;
+	width: 270px;
 	height: 200px;
 	object-fit: cover;
 	border-radius: 25px;
 	margin-bottom: 10px;
 }
+
 /* dati */
 canvas {
 	margin-left: auto;
 	margin-right: auto;
+}
+#datiChart {
+	width: 600px;
+}
+#aptaujaChart {
+	width: 800px;
 }
 /* footer */
 footer {
@@ -116,7 +127,6 @@ footer {
 	border-top: 1px solid #ddd;
 	font-size: 14px;
 }
-
 footer p {
 	padding: 15px;
 	margin: 0;
